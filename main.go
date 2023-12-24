@@ -11,4 +11,5 @@ func main() {
 		priceJob := prices.NewTaxIncludedPriceJob(taxRate)
 		priceJob.Process()
 	}
+
 }
